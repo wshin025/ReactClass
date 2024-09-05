@@ -1,0 +1,10 @@
+.clock{
+    border-width: 5px;
+    border-style: groove;
+    border-color: orange;
+    background-color: violet;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
