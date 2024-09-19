@@ -1,21 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 // import './chp03/Book.css';
 // import './ch04/sty.css';
-// import './ch04/Clock.css';
+//  import './ch04/Clock.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Library from "./chp03/Library";
 import Button from "./ch04/Button";
-// import ComfirmDialog from "./ch04/ComfirmDialog";
+ import ComfirmDialog from "./ch04/ComfirmDialog";
 import Clock from "./ch04/Clock";
 import CommentList from "./chp05/CommentList";
+import NotificationList from "./chp06/NotificationList";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <CommentList/>
+        <NotificationList/>
     </React.StrictMode>
 );
 
