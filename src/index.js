@@ -27,12 +27,14 @@ import Mailbox from "./chp09/Mailbox";
 import LoginControl2 from "./chp09/LoginControl2";
 import Toolbar from "./chp09/Toolbar";
 import LandingPage from "./chp09/LandingPage";
+import AppNumberList from "./chp10/AppNumberList";
+import StudentAttendance from "./chp10/StudentAttendance";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <LandingPage/>
+        <StudentAttendance/>
     </React.StrictMode>
 );
 
