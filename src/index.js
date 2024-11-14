@@ -29,12 +29,13 @@ import Toolbar from "./chp09/Toolbar";
 import LandingPage from "./chp09/LandingPage";
 import AppNumberList from "./chp10/AppNumberList";
 import StudentAttendance from "./chp10/StudentAttendance";
+import avatarAttendanceCard from "./chp10/avatarAttendance/avatarAttendanceCard";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <StudentAttendance/>
+        <avatarAttendanceCard/>
     </React.StrictMode>
 );
 
