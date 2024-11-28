@@ -30,16 +30,20 @@ import reportWebVitals from './reportWebVitals';
 // import AppNumberList from "./chp10/AppNumberList";
 // import StudentAttendance from "./chp10/StudentAttendance";
 // import avatarAttendanceCard from "./chp10/avatarAttendance/avatarAttendanceCard";
-import NameForm from "./chp11/NameForm";
-import RequestForm from "./chp11/RequestForm";
-import NameRequestForm from "./chp11/NameRequestForm";
-import Signup from "./chp11/Signup";
+// import NameForm from "./chp11/NameForm";
+// import RequestForm from "./chp11/RequestForm";
+// import NameRequestForm from "./chp11/NameRequestForm";
+// import Signup from "./chp11/Signup";
+// import BoilingVerdict from "./chp12/BoilingVerdict";
+// import Calculator from "./chp12/Calculator";
+// import Calculator3 from "./chp12/Calculator3";
+import DistanceConverter from "./chp12/Distance/DistanceConverter";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Signup/>
+        <DistanceConverter/>
     </React.StrictMode>
 );
 
