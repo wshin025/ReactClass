@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import style from "./DistanceConverter.module.css"
+import styles from './DistanceConverter.module.css'
 
 function toKilometer(miles){
     return miles * 1.60934;
@@ -31,7 +31,7 @@ function DistanceConverter(){
         setDistance(distance);
         setUnit("km");
     }
-    const handleMileChange = (distance) => {
+    const handleMilesChange = (distance) => {
         setDistance(distance);
         setUnit("mile");
     }

@@ -38,12 +38,15 @@ import reportWebVitals from './reportWebVitals';
 // import Calculator from "./chp12/Calculator";
 // import Calculator3 from "./chp12/Calculator3";
 import DistanceConverter from "./chp12/Distance/DistanceConverter";
+import Card from "./chp13/Card";
+import ProfileCard from "./chp13/ProfileCard";
+import Mainpage from "./chp13/ex.01/Mainpage";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <DistanceConverter/>
+        <Header/>
     </React.StrictMode>
 );
 
